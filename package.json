@@ -1,0 +1,30 @@
+{
+  "name": "hubot-pr-status",
+  "version": "0.1.0",
+  "description": "Determine the status of a given pull request on GitHub.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jekyll/hubot-pr-status.git"
+  },
+  "keywords": [
+    "hubot",
+    "pull",
+    "request",
+    "status",
+    "travis",
+    "travisci",
+    "circleci",
+    "pr",
+    "pull-request"
+  ],
+  "author": "Matt Rogers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jekyll/hubot-pr-status/issues"
+  },
+  "homepage": "https://github.com/jekyll/hubot-pr-status"
+}
