@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/jekyll/hubot-pr-status/issues"
   },
-  "homepage": "https://github.com/jekyll/hubot-pr-status"
+  "homepage": "https://github.com/jekyll/hubot-pr-status",
+  "dependencies": {
+    "githubot": "~0.5.0"
+  }
 }
