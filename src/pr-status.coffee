@@ -32,5 +32,8 @@ module.exports = (robot) ->
 
     github.get pull_url, (pull) ->
       github.get pull.statuses_url, (status) ->
-        last_status = status[0]
-        msg.send "#{last_status.state} - #{last_status.target_url}"
+        if status?
+          last_status = status[0]
+          msg.send "#{last_status.state} - #{last_status.target_url}"
+        else
+          msg.send "No statuses for that PR yet. Hold up."
