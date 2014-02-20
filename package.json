@@ -1,6 +1,6 @@
 {
   "name": "hubot-pr-status",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Determine the status of a given pull request on GitHub.",
   "main": "index.coffee",
   "scripts": {
