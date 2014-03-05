@@ -19,7 +19,9 @@
     "travisci",
     "circleci",
     "pr",
-    "pull-request"
+    "pull-request",
+    "hubot-scripts",
+    "github"
   ],
   "author": "Matt Rogers",
   "license": "MIT",
